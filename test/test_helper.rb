@@ -14,4 +14,4 @@ class ActionDispatch::IntegrationTest
 	self.use_transactional_fixtures = false
 end
 
-Capybara.default_driver = :selenium
+# Capybara.default_driver = :selenium
