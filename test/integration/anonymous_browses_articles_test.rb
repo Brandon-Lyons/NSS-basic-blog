@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AnonymousPostsArticleTest < ActionDispatch::IntegrationTest
+class AnonymousBrowsesArticleTest < ActionDispatch::IntegrationTest
 
 	test "browse articles" do
 		Post.create(title: "First Post", body: "first")
